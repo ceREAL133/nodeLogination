@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR PAGE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="greeting"> 
+        <div class="greet_text">Welcome</div> 
+        <div class="greet_user">{{currentUser.userName}}</div>
+        </div>
+    <div id="user">
+       <div><b>User Name</b> - {{currentUser.userName}}</div>
+       <div><b>Login</b> - {{currentUser.login}}</div>
+       <div><b>Id</b> - {{currentUser.id}}</div>
+    </div>
+
+    <div id="allUsers" style="visibility: hidden">
+        {{#each allUsers}}
+            <div id="users_item">
+                <div><b>User Name</b> - {{this.userName}} </div>
+                <div><b>Login</b> - {{this.login}} </div>
+                <div><b>Id</b> - {{this.id}} </div>
+            </div>
+        {{/each}} 
+    </div>
+    <button id="button" onclick="showUsers()">Show All Users</button>
+    
+    <script src="showUsers.js"></script>
+</body>
+</html>

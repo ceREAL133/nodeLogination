@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dan",
+  "license": "ISC",
+  "dependencies": {
+    "node-localstorage": "^2.2.1"
+  }
+}

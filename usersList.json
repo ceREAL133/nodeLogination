@@ -1,0 +1,50 @@
+[
+ {
+  "login": "i_fear_nothing",
+  "userName": "Wraith",
+  "password": "fazing",
+  "id": "1"
+ },
+ {
+  "login": "valk",
+  "userName": "Valkyrie",
+  "password": "deathfromsky",
+  "id": "2"
+ },
+ {
+  "login": "cryptoHack",
+  "userName": "Crypto",
+  "password": "hack",
+  "id": "3"
+ },
+ {
+  "login": "tntGod",
+  "userName": "Fuse",
+  "password": "boooom",
+  "id": "4"
+ },
+ {
+  "login": "grappleFun",
+  "userName": "Pathfinder",
+  "password": "hello_friend",
+  "id": "5"
+ },
+ {
+  "login": "run",
+  "userName": "Octane",
+  "password": "adrenaline",
+  "id": "6"
+ },
+ {
+  "login": "allfather",
+  "userName": "Bloodhound",
+  "password": "giveMeSight",
+  "id": "7"
+ },
+ {
+  "login": "your_bruddah",
+  "userName": "Gibraltar",
+  "password": "hey_there",
+  "id": "8"
+ }
+]
